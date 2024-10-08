@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgba(250, 251, 255, 0.868);
+}
+
+/* ANUNCIO (PARA TODAS LAS SECCIONES) */
+
+.cont__anuncio{
+    text-align: center;
+    background-color: #222;
+    color:#fffe;
+}
+
+/* CABECERA (PARA TODAS LAS SECCIONES) */
+
+.cont__encabezado{
+    display: block;
+    text-align: right;
+}
+
+.encabezado__titulo{
+    text-align: center;
+    font-size: 52px;
+    padding: 10px;
+}
+
+.encabezado__usuario{
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    color: #eee;
+    background-color: #222;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.encabezado__carrito{
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    color: #eee;
+    background-color: #222;
+    border-radius: 8px;
+    margin: 4px 8px ;
+    transition: background-color 0.3s ease;
+}
+
+.encabezado__usuario:hover, .encabezado__carrito:hover {
+    background-color: #444;
+}
+
+/* BARRA DE NAVEGACION (PARA TODAS LAS SECCIONES) */
+
+.cont__navegacion {
+    background-color: #111;
+    padding: 0px;
+}
+
+.navegacion__lista {
+    margin: 0;
+    text-align: center;
+}
+
+.navegacion__item { 
+    font-size: 18px;
+    list-style-type: none;
+    padding: 24px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.navegacion__item > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegacion__item:hover{
+    background-color: #333e;
+}
+
+/* PIE DE PAGINA (PARA TODAS LAS SECCIONES) */
+
+.cont__pie {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* SECCION INICIO */
+
+.principal__seccion img{
+    width: 100%;
+    height: 100%;
+}
+
+/* SECCION NOSOTROS */
+
+.somos__nosotros {
+    background-color: #f7f7f7;
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.somos__nosotros h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.somos__nosotros h3 {
+    font-size: 28px;
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.somos__nosotros p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6; /* Espacio entre lineas */
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.somos__nosotros strong {
+    color: #333;
+}
+
+.text__nosotros{
+    display: inline-block;
+}
+
+.img__nosotros{
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+}
+
+
+/* SECCION POLITICAS */
+
+.politica__compra {
+    background-color: #f0f0f0;
+    padding: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.politica__compra h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.politica__compra h3 {
+    font-size: 1.6rem;
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.politica__compra p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.politica__compra a {
+    color: #2af;
+    text-decoration: none;
+}
+
+.politica__compra a:hover {
+    text-decoration: underline;
+}
+
+/* SECCION DE CONTACTO */
+
+.seccion__contacto {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seccion__contacto h2 {
+    text-align: center;
+    color: #333;
+}
+
+.formulario__contacto {
+    margin-top: 20px;
+}
+
+.formulario__contacto div {
+    margin-bottom: 15px;
+}
+
+.formulario__contacto label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.formulario__contacto input, .formulario__contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn-enviar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #555;
+}
+
+.info__contacto {
+    margin-top: 20px;
+}
+
+.info__contacto h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info__contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info__contacto li {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* SECCION DE USUARIO */
+
+.login__container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login__container h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 26px;
+    
+}
+
+.login__container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 16px;
+}
+
+.login__container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login__container input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: #555;
+}
+
+.registro {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.registro a {
+    color: #333;
+    text-decoration: none;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
+
+/* SECCION DE REGISTRO */
+
+.register__container{
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.register__container h2 {
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 26px;
+    
+}
+
+.register__container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #666;
+    font-size: 16px;
+}
+
+.register__container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register__container input:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background-color: #555;
+}
+
+/* SECCION PRODUCTOS */
+
+.seccion__producto{
+    text-align: center;
+}
+
+.item__producto{
+    display: inline-block;
+    width: 300px;
+}
+
+.item__producto img{
+    width: 100%;
+    height: 100%;
+}
+
+.item__producto h3 {
+    text-align: center;
+}
+.item__producto p {
+    margin: 8px 0 16px 0;    
+}
+
+.btn-comprar{
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    padding: 4px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+/* BOTONES EXTRA */
+
+.btn-atras{
+    position:fixed ;
+    text-decoration: none;
+    color: #fff;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+    margin: 15% 10px;
+}
+
+.btn-atras:hover {
+    background-color: #222;
+}
