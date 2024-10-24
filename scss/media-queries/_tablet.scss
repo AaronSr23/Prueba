@@ -1,0 +1,45 @@
+//Footer:
+@media screen and (max-width: 768px) {
+    .footer__content {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .footer__logo h2 {
+        font-size: 1.6em !important;
+    }
+}
+// Seccion nosotros:
+@media (max-width: 768px) {
+    .somos__nosotros {
+        padding: 30px !important;
+        max-width: 100% !important;
+        .img__nosotros {
+            width: 90% !important; 
+        }
+        h2 {
+            font-size: 36px !important;
+        }   
+        h3 {
+            font-size: 24px !important;
+        }
+        p {
+            font-size: 16px !important;
+        }
+    }
+}
+//Seccion producto:
+@media screen and (max-width: 768px) {
+    .seccion__producto {
+        grid-template-columns: repeat (minmax(300px, 1fr)) !important;
+    }
+    .item__producto img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    h3 {
+        font-size: 1.2rem !important;
+    }
+    p {
+        font-size: 0.9rem !important;
+    }
+}

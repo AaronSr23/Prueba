@@ -1,1 +1,0 @@
-Proyecto web de zapatillas avanzado, se le agrego funcionalidades como grid, flex, bootstrap, etc.

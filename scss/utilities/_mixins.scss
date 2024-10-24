@@ -1,0 +1,31 @@
+
+@mixin botones-variables($bg-color,$padding,$text-decoration,$border,$border-r,$color){
+    background-color: $bg-color ;
+    padding: $padding;
+    text-decoration: $text-decoration;
+    border: $border;
+    border-radius: $border-r;
+    color: $color;
+}
+
+//Usuario:
+.btn-login{
+    @include botones-variables(#333,10px, none, none, 5px,#fff);
+    width: 100%;
+    cursor: pointer;
+    margin-bottom:10px ;
+    &:hover {
+        background-color: #555;
+    }
+}
+
+//Registro:
+.btn-register{
+    @include botones-variables(#333,16px,none,none,8px,#fff );
+    width:100%;
+    cursor: pointer;
+    margin-top: 16px;
+    &:hover {
+            background-color: #555;
+        }
+}

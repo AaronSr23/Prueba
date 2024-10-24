@@ -1,0 +1,44 @@
+.login__container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    margin: 32px auto;
+    h2 {
+        margin-bottom: 30px;
+        color: #333;
+        font-size: 26px;
+        
+    }
+    label {
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+        color: #666;
+        font-size: 16px;
+    }
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 18px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        &:focus {
+            outline: none;
+            border-color: #333;
+        }
+    }
+    .registro {
+        margin-top: 15px;
+        font-size: 14px;
+        a {
+            color: #29fa;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

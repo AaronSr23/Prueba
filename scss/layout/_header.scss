@@ -1,0 +1,59 @@
+header{
+    //Barra de navegacion
+    .nav-primario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: #222;
+        }
+        .nav-primario__titulo{
+            text-align: center;
+            font-size: 52px;
+            font-weight: bolder;
+        }
+    }
+    .navbar{
+        background-color: #111 !important;
+        padding: 0;
+
+        img {
+            width: 35px !important;
+            border-radius: 6px;
+            margin-right: 10px;
+        }
+
+        a {
+            font-size: 1.3rem;
+            color: #fff !important;
+        }
+
+        .navbar-nav{
+            padding: 0;
+            margin: 0 auto !important;
+            li {
+                font-size: 20px !important;
+                transition: background-color 0.2s ease !important;
+                padding: 1.4rem;
+                &:hover{
+                    background-color: #333e !important
+                }
+            }
+        }
+    }
+    //Iniciar sesion:hover
+    .navbar-brand {
+        transition: color 0.5s ease;
+        &:hover{
+            color: rgba(164, 241, 255, 0.737) !important;
+        }
+    }
+    //Corrigiendo bootstrap
+    @media (max-width: 976px) {
+        .navbar{
+            padding: 20px;
+        }
+    }
+    
+}
