@@ -1,3 +1,32 @@
+//Anuncio
+@media (max-width: 768px) {
+    .cont__anuncio {
+        padding: 1px 4px;
+        font-size: 0.8rem;
+    }
+}
+//Header y Navbar
+@media (max-width: 768px) {
+    header {
+        .nav-primario__titulo {
+        font-size: 36px;
+        }
+        .navbar {
+            a {
+                font-size: 1.1rem;
+            }
+            .navbar-nav {
+                li {
+                    padding: 1rem;
+                    font-size: 18px !important;
+                }
+            }
+            button {
+                padding: 8px 12px;
+            }
+        }
+    }
+}
 //Footer:
 @media screen and (max-width: 768px) {
     .footer__content {

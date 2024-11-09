@@ -4,7 +4,7 @@
     padding: 40px 20px;
     .footer__content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         gap: 20px;
 
@@ -56,15 +56,15 @@
                 text-decoration: underline;
             }
             }
-        }
-        .footer__bottom {
-            text-align: center;
-            padding-top: 20px;
-            border-top: 1px solid #444;
-            margin-top: 20px;
-            p {
-                font-size: 0.9em;
-            }
+        } 
+    }
+    .footer__bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid #444;
+        margin-top: 20px;
+        p {
+            font-size: 0.9em;
         }
     }
 }

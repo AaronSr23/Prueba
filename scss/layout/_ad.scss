@@ -1,5 +1,24 @@
-.cont__anuncio{
-    text-align: center;
-    background-color: #222;
-    color:#fffe;
+.cont__anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 6px;
+    background: linear-gradient(90deg, #111, #333);
+    color: #fffe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    text-align: center; 
+    .anuncio {
+        margin: 0;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #f8f8f8;
+    }
+    &:before {
+        content: '🚚';
+        margin-bottom: 4px;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
 }

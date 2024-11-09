@@ -1,3 +1,42 @@
+//Anuncio
+@media (max-width: 480px) {
+    .cont__anuncio {
+        padding: 1px 3px;
+        font-size: 0.6rem;
+        .anuncio {
+            font-size: 0.6rem !important;
+        } 
+    }
+}
+//Header y Navbar
+@media (max-width: 480px) {
+    header {
+        .nav-primario {
+            .nav-primario__titulo {
+                font-size: 28px;
+            }
+        }
+        .navbar {
+            img {
+                width: 30px !important;
+            }
+            a {
+                font-size: 1rem;
+            }  
+            .navbar-nav {
+                flex-direction: column;
+                li {
+                    padding: 0.8rem;
+                    font-size: 16px !important;
+                }
+            }
+            button {
+                padding: 6px 10px !important;
+            }
+        }
+    }
+}
+
 //Footer:
 @media screen and (max-width: 480px) {
     .footer__logo h2 {
