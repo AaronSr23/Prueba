@@ -205,7 +205,7 @@ header .navbar-brand:hover {
 .politica__compra {
   background-color: #f0f0f0;
   padding: 40px;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
@@ -541,8 +541,7 @@ header .navbar-brand:hover {
 @media screen and (max-width: 480px) {
   .seccion__producto {
     grid-template-columns: 1fr !important;
-    max-width: 100% !important;
-    overflow: hidden !important;
+    max-width: 100%;
   }
   .item__producto img {
     width: 100% !important;
@@ -560,7 +559,6 @@ header .navbar-brand:hover {
 }
 @media (max-width: 480px) {
   .politica__compra {
-    overflow: hidden !important;
     padding: 20px !important;
   }
   .politica__compra h2 {
@@ -639,7 +637,7 @@ header .navbar-brand:hover {
 @media (max-width: 768px) {
   .politica__compra {
     padding: 30px !important;
-    max-width: 95% !important;
+    max-width: 100% !important;
   }
   .politica__compra h2 {
     font-size: 2rem !important;
