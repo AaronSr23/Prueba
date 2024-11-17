@@ -211,7 +211,7 @@ header .navbar-brand:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .politica__compra h2 {
-  animation: slideUpFade 0.5s ease;
+  animation: slideUpFade 1.5s ease;
   font-size: 2.2rem;
   text-align: center;
   color: #222;
