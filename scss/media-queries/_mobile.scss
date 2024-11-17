@@ -89,15 +89,15 @@
 
 @media (max-width: 480px) { 
 .politica__compra {
-    padding: 20px;
+    padding: 20px !important;
     h2 {
-        font-size: 1.8rem; // Reduce aún más el tamaño
+        font-size: 1.8rem !important; // Reduce aún más el tamaño
     }
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.2rem !important;
     }
     p {
-        font-size: 0.9rem; // Texto más pequeño para móviles
+        font-size: 0.9rem !important; // Texto más pequeño para móviles
     }
 }
 }

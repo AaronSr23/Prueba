@@ -3,12 +3,10 @@
   padding: 0;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  border: 1px solid green;
 }
 
 body {
   background-color: rgba(250, 251, 255, 0.868);
-  overflow-x: hidden;
 }
 
 .cont__anuncio {
@@ -561,16 +559,16 @@ header .navbar-brand:hover {
 }
 @media (max-width: 480px) {
   .politica__compra {
-    padding: 20px;
+    padding: 20px !important;
   }
   .politica__compra h2 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
   }
   .politica__compra h3 {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
   .politica__compra p {
-    font-size: 0.9rem;
+    font-size: 0.9rem !important;
   }
 }
 @media (max-width: 768px) {
@@ -638,17 +636,17 @@ header .navbar-brand:hover {
 }
 @media (max-width: 768px) {
   .politica__compra {
-    padding: 30px;
-    max-width: 95%;
+    padding: 30px !important;
+    max-width: 95% !important;
   }
   .politica__compra h2 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
   .politica__compra h3 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
   .politica__compra p {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 }
 
