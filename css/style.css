@@ -211,6 +211,7 @@ header .navbar-brand:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .politica__compra h2 {
+  animation: Slide-in 1.5s ease;
   font-size: 2.2rem;
   text-align: center;
   color: #222;
@@ -234,6 +235,16 @@ header .navbar-brand:hover {
 }
 .politica__compra p a:hover {
   text-decoration: underline;
+}
+@keyframes Slide-in {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .seccion__contacto {
