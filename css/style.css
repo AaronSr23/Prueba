@@ -238,7 +238,7 @@ header .navbar-brand:hover {
 }
 @keyframes fade-in {
   0% {
-    transform: translateY(10px);
+    transform: translateY(100px);
     opacity: 0;
   }
   100% {
