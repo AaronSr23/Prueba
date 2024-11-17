@@ -439,7 +439,7 @@ header .navbar-brand:hover {
 .carrito {
   position: fixed !important;
   transition: background-color 0.2s ease !important;
-  width: 100px;
+  max-width: 100px;
   bottom: 80px;
   right: 30px;
   z-index: 1000;
@@ -557,6 +557,20 @@ header .navbar-brand:hover {
     padding: 8px 14px !important;
   }
 }
+@media (max-width: 480px) {
+  .politica__compra {
+    padding: 20px;
+  }
+  .politica__compra h2 {
+    font-size: 1.8rem;
+  }
+  .politica__compra h3 {
+    font-size: 1.2rem;
+  }
+  .politica__compra p {
+    font-size: 0.9rem;
+  }
+}
 @media (max-width: 768px) {
   .cont__anuncio {
     padding: 1px 4px;
@@ -618,6 +632,21 @@ header .navbar-brand:hover {
   }
   p {
     font-size: 0.9rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .politica__compra {
+    padding: 30px;
+    max-width: 95%;
+  }
+  .politica__compra h2 {
+    font-size: 2rem;
+  }
+  .politica__compra h3 {
+    font-size: 1.4rem;
+  }
+  .politica__compra p {
+    font-size: 1rem;
   }
 }
 
