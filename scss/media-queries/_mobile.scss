@@ -70,6 +70,7 @@
 @media screen and (max-width: 480px) {
     .seccion__producto {
         grid-template-columns: 1fr !important;
+        max-width: 100%;
     }
     .item__producto img {
         width: 100% !important;

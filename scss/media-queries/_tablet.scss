@@ -60,6 +60,7 @@
 @media screen and (max-width: 768px) {
     .seccion__producto {
         grid-template-columns: repeat (minmax(300px, 1fr)) !important;
+
     }
     .item__producto img {
         width: 100% !important;
