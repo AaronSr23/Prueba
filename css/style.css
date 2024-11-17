@@ -203,6 +203,7 @@ header .navbar-brand:hover {
 }
 
 .politica__compra {
+  animation: Slide-in 0s ease;
   background-color: #f0f0f0;
   padding: 40px;
   max-width: 800px;
@@ -211,7 +212,6 @@ header .navbar-brand:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 .politica__compra h2 {
-  animation: Slide-in 1.5s ease;
   font-size: 2.2rem;
   text-align: center;
   color: #222;
