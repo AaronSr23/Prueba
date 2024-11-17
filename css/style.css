@@ -379,7 +379,7 @@ header .navbar-brand:hover {
 
 .seccion__producto {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin-bottom: 60px;
   gap: 10px 20px;
 }
@@ -390,7 +390,7 @@ header .navbar-brand:hover {
 .seccion__producto .item__producto img {
   margin: 10px 0px;
   width: 100%;
-  height: 500px;
+  height: auto;
   object-fit: cover;
 }
 .seccion__producto .item__producto h3 {
