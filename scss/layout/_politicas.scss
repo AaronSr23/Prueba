@@ -1,5 +1,4 @@
 .politica__compra {
-    animation: Slide-in 0s ease;
     background-color: #f0f0f0;
     padding: 40px;
     max-width: 800px;
@@ -7,6 +6,7 @@
     border-radius: 10px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
     h2 {
+        animation: fade-in 0.5s ease;
         font-size: 2.2rem;
         text-align: center;
         color: #222;
@@ -31,13 +31,13 @@
             }
         }
     }
-    @keyframes Slide-in {
+    @keyframes fade-in {
         0% {
-            transform: translateY(30px); 
+            // transform: translateY(30px); 
             opacity: 0;         
         }
         100% {
-            transform: translateY(0);    
+            // transform: translateY(0);    
             opacity: 1;                
         }
     }
