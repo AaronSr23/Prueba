@@ -89,3 +89,39 @@
     }
 }
 }
+//Seccion Login
+@media (max-width: 768px) {
+
+    .login__container{
+    width: 90%; // Se adapta al ancho de la pantalla
+    padding: 30px;
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input {
+        padding: 8px;
+    }
+}
+}
+//Seccion Registro
+@media (max-width: 768px){ 
+    .register__container{
+    width: 90%;
+    padding: 20px;
+
+    h2 {
+        font-size: 22px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    input {
+        padding: 8px;
+    }
+}
+}
+

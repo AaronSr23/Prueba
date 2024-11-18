@@ -101,3 +101,45 @@
     }
 }
 }
+//Seccion Login
+@media (max-width: 480px) {
+.login__container{
+    padding: 20px;
+
+    h2 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        padding: 6px;
+    }
+
+    .registro {
+        font-size: 12px;
+    }
+}
+}
+//Seccion Registro
+@media (max-width: 480px){
+    .register__container{
+    padding: 15px;
+    border-radius: 6px;
+
+    h2 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
+}

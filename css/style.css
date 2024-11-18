@@ -582,6 +582,39 @@ header .navbar-brand:hover {
     font-size: 0.9rem !important;
   }
 }
+@media (max-width: 480px) {
+  .login__container {
+    padding: 20px;
+  }
+  .login__container h2 {
+    font-size: 20px;
+  }
+  .login__container label {
+    font-size: 14px;
+  }
+  .login__container input {
+    padding: 6px;
+  }
+  .login__container .registro {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .register__container {
+    padding: 15px;
+    border-radius: 6px;
+  }
+  .register__container h2 {
+    font-size: 20px;
+  }
+  .register__container label {
+    font-size: 14px;
+  }
+  .register__container input {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
 @media (max-width: 768px) {
   .cont__anuncio {
     padding: 1px 4px;
@@ -658,6 +691,33 @@ header .navbar-brand:hover {
   }
   .politica__compra p {
     font-size: 1rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .login__container {
+    width: 90%;
+    padding: 30px;
+  }
+  .login__container h2 {
+    font-size: 22px;
+  }
+  .login__container input {
+    padding: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .register__container {
+    width: 90%;
+    padding: 20px;
+  }
+  .register__container h2 {
+    font-size: 22px;
+  }
+  .register__container label {
+    font-size: 15px;
+  }
+  .register__container input {
+    padding: 8px;
   }
 }
 
